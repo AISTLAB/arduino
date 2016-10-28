@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<TKStudioProject Name="key" BuildTool="0" Version="3.00" Author="YinHandong[Òüº®¶¬]" ProjectGUID="{2ADF219A-6A20-4171-88DC-F379997DC65C}" ToolVer="">
+    <Configurations>
+        <Configuration Name="DebugRel" CodeMode="2" MemMode="0" RTOS="0" T51FL="0" SIMCLK="40.000000" OCM51="{ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }" OCR51="{ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }" OutputDirectory=".\DebugRel\" OutputName="key" GENAPP="1" GENLIB="0" ListingDirectory=".\DebugRel\" OPTLT="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" OPTDBG="1,-1,1,1,1,1,()" DEVICE="P89V51RD2" VENDOR="NXP (founded by Philips)" FAMINY="0" CPU="IRAM(0-0xFF) IROM(0-0xFFFF) CLOCK(40000000)" RGF='P89V51Rx2.H(&quot;Philips&quot;)' MONDL='S8051.DLL TP51.DLL(&quot;-pS554R&quot;)' SIMDL='S8051.DLL DP51.DLL(&quot;-pS554R&quot;)' CodeBank="0,2,0x0000,0xFFFF,">
+            <Tool Name="C51Tool" C51FL="4853008" C51VA="0" C51DEF="" C51UDF="" C51MSC="" INCC5="" />
+            <Tool Name="A51Tool" A51FL="68" A51SET="" A51RST="" A51MSC="" INCA5="" />
+            <Tool Name="Lx51Tool" LX51FL="4" LX51COB="" LX51XDB="" LX51PDB="" LX51BIB="" LX51DAB="" LX51IDB="" LX51PRC="" LX51STK="" LX51COS="" LX51XDS="" LX51BIS="" LX51DAS="" LX51IDS="" LX51OVL="" LX51MSC="" LX51DWN="" />
+            <DeviceProperties Item0='REGFILE=P89V51Rx2.H(&quot;Philips&quot;)' Item1='SFILE=&quot;LIB\STARTUP.A51&quot; (&quot;Standard 8051 Startup Code&quot;)' Item2='BOOK0=DATASHTS\PHILIPS\P89V51RD2.PDF(&quot;Data Sheet&quot;)' Item3="CPU=IRAM(0-0xFF) IROM(0-0xFFFF) CLOCK(40000000)" Item4='MON=S8051.DLL TP51.DLL(&quot;-p554&quot;)' Item5='SIM=S8051.DLL DP51.DLL(&quot;-p554&quot;)' />
+            <DeviceDescription Description="40MHz, 5 Volt 8051-based Microcontroller with 32 I/O lines, 3 Timers/Counters, 9 Interrupts/4 priority levels, 64K+8K FLASH, 1K on-chip RAM, SPI, Dual Data Pointers, WDT,&#x0D;&#x0A;5-channel PCA" />
+        </Configuration>
+    </Configurations>
+    <Files>
+        <Filter Name="Source Files">
+            <File RelativePath=".\Port.h" />
+            <File RelativePath=".\config.h" />
+            <File RelativePath=".\main.c">
+                <Header RelativePath="config.h" />
+                <Header RelativePath="C:\Keil\C51\INC\reg52.h" />
+                <Header RelativePath="Port.h" />
+                <Header RelativePath="key.h" />
+            </File>
+            <File RelativePath="key.h">
+                <Header RelativePath="config.h" />
+                <Header RelativePath="C:\Keil\C51\INC\reg52.h" />
+                <Header RelativePath="key.h" />
+            </File>
+        </Filter>
+    </Files>
+</TKStudioProject>
